@@ -26,5 +26,5 @@ function draw() {
 
 function windowResized(){
   
-  resizeCavas(windowWidth,windowHeight)
+  resizeCavas(windowWidth,windowHeight);
 }
