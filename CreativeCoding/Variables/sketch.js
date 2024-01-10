@@ -17,7 +17,7 @@ function draw() {
 
    x,y,
    x + sideLen,y,
-   x + sideLen,360 + y ,
+   x + sideLen,y + sideLen,
    x,sideLen + y
 );   
   }
