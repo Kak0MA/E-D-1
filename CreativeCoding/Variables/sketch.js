@@ -1,3 +1,9 @@
+let gif;
+
+function preload(){
+gif = loadImage ('Assets/GIF.gif');
+}
+
 function setup() {
   createCanvas(windowWidth,windowHeight)
   background('gray') 
@@ -7,19 +13,17 @@ function setup() {
 
 function draw() {
   
+  background('coral');
+  
   var num = 3;
   var sideLen = windowWidth/num;
   
  for(var y = 0; y < windowHeight; y = y + sideLen ){ 
   for(var x = 0; x < windowWidth; x = x + sideLen){
-    
-   quad (
 
-   x,y,
-   x + sideLen,y,
-   x + sideLen,y + sideLen,
-   x,sideLen + y
-);   
+imag(gif,x,y,sideLen,sideLen);  
+
+ 
   }
  }
 }
