@@ -2,7 +2,7 @@
 let gif;
 
 function preload(){
-gif = loadImage ('Assets/GIF Final.gif');
+gif = loadImage ('Assets/GIFFinal.gif');
 }
 
 function setup() {
