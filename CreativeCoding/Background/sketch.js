@@ -6,10 +6,7 @@ gif = loadImage ('Assets/GIF.gif');
 }
 
 function setup() {
-  createCanvas(windowWidth,windowHeight)
-  background('gray') 
-  strokeWeight(1);
-  fill('coral');
+  createCanvas(windowWidth,windowHeight);
 }
 
 function draw() {
@@ -22,7 +19,7 @@ function draw() {
  for(var y = 0; y < windowHeight; y = y + sideLen ){ 
   for(var x = 0; x < windowWidth; x = x + sideLen){
 
-imag(gif,x,y,sideLen,sideLen);  
+image(gif,x,y,sideLen,sideLen);  
 
  
   }
