@@ -20,9 +20,15 @@ h1{
      left: 50%;
      transform: translateX(-50%) translateY(-50%);
      text-align: center;
-     top: 0%;
+     top: 1vw;
      font-size:3vw;
      display: inline; background: lavender; 
+}
+
+
+h3{
+display: inline; background: lavender;
+font-size:2vw;
 }
 
 p{
@@ -31,14 +37,15 @@ p{
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     text-align:center;
-    top: 5%;
+    top: 4vw;
+    font-size:1.5vw;
 }
 
 table{
   position: absolute;
   z-index: 1;
   width:100%;
-  top: 10%;
+  top: 5.5vw;
 
 }
 
@@ -49,12 +56,7 @@ td {
     padding-top:10px;
     text-align:center;
 
-    &:after, &:before {
-        content: '';
-
-        display: block;
-        padding-bottom: calc(50% - 0.5em);
-    }
+    
 }
 
 .container{
