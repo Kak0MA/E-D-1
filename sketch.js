@@ -5,6 +5,7 @@ function preload(){
 gif = loadImage ('Assets/GifEnd.gif');
 
 }
+
 function setup() {
   createCanvas(windowWidth,windowHeight);
   fill('lightgrey');
